@@ -1,0 +1,330 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	background: #fff;
+}
+
+p, h1, h2, h3, h4, div {
+	margin: 0;
+	padding :0;
+}
+
+.centerr {
+	margin: 0 auto;
+}
+
+header {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a9ed2+0,53cbf1+40,1576a0+100 */
+	background: #2a9ed2; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #2a9ed2 0%, #53cbf1 40%, #1576a0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #2a9ed2 0%,#53cbf1 40%,#1576a0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #2a9ed2 0%,#53cbf1 40%,#1576a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a9ed2', endColorstr='#1576a0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-top: 30px;
+	box-shadow: 0px 10px 40px #0003;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item {
+	margin-right: 15px;
+}
+
+.menu a {
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: #fffc00;
+}
+
+.main__title {
+	color: #fcdb00;
+	font-family: 'Yeseva One', cursive;
+	font-size: 92px;
+	padding-left: 95px;
+	padding-top: 60px;
+
+}
+
+.main__intro {
+	font-family: 'Yeseva One', cursive;
+	color: #fff;
+	font-size: 36px;
+	padding-left: 65px;
+}
+
+.main__text {
+	width: 445px;
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 2.0em;
+	word-spacing: 0.2em;
+}
+
+.main__btn a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Yeseva One', cursive;
+	font-size: 24px;
+	background: #fcdb00;
+	margin-left: 95px;
+	width: 190px;
+	border: 0;
+	outline: none;
+	margin-bottom: 53px;
+}
+
+.tree {
+	padding-top: 60px;
+	margin-bottom: 40px;
+	padding-right: 20px;
+}
+
+.features__title {
+	color: #000;
+	font-family: 'Yeseva One', cursive;
+	font-size: 24px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.features__block__icon {
+	padding-left: 120px;
+}
+
+.features__block__title {
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.features__block__text {
+	width: 220px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.why {
+	background: #e9f7f8;
+}
+
+.why h3 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.features {
+	padding-bottom: 80px;
+}
+
+.why__block {
+	margin-bottom: 30px;
+}
+
+.why__block__content {
+	width: 370px;
+}
+
+.block__why__one {
+	padding-left: 80px;
+	text-align: right;
+	}
+
+.block__why__two {
+	padding-right: 130px;
+	text-align: left;
+}
+
+.block__why__three {
+	padding-left: 80px;
+	text-align: right;
+	}
+
+.block__why__four {
+	padding-right: 120px;
+	text-align: left;
+}
+
+.block__why__two .why__block__icon {
+	margin-right: 10px;
+}
+
+.block__why__four .why__block__icon {
+	margin-right: 10px;
+}
+
+.why__block__icon {
+	margin-left: 10px;
+}
+
+.order .container {
+	background: url(../img/order_girl.png) no-repeat center top / cover;
+	background-size: 100%;
+}
+
+.order {
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.form__input {
+	display: block;
+	background: #e9f7f8;
+    font-size: 16px;
+    font-family: 'PT-Sans', sans-serif;
+	border: 1px solid #d1d1d1;
+	border-radius: 25px;
+	width: 500px;
+    padding: 14px 0;
+	margin-right: 21px;
+	margin-bottom: 20px;
+    padding-left: 23px;
+    outline: none;
+}
+
+.form__btn {
+	font-family: 'Yeseva One', cursive;
+    background: #fcdb00;
+    color: black;
+    font-size: 24px;
+    border-radius: 5px;
+    width: 126 px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+    padding-left: 23px;
+	padding-right: 23px;
+	margin-left: 170px;
+	margin-top: 30px;
+}
+
+.footer {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a9ed2+0,53cbf1+40,1576a0+100 */
+	background: #2a9ed2; /* Old browsers */
+
+}
+
+.footer__credits__title {
+	color: #fff;
+}
+
+.footer__credits__text {
+	color: #fcdb00;
+}
+
+.footer {
+	padding-bottom: 50px;
+}
+
+.contacts {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a9ed2+0,53cbf1+40,1576a0+100 */
+	background: #2a9ed2; /* Old browsers */
+	padding-top: 40px;
+}
+
+.contacts__logo__text {
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+}
+
+hr {
+	border: none;
+	background-color: #fff;
+	color: #fff;
+	height: 2px;
+}
+
+.yellow_text_bold {
+	color: #fcdb00;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.yellow_text {
+	color: #fcdb00;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.vk_button {
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-family: 'PT-Sans', sans-serif;
+	font-size: 24px;
+	background: #3a71b0;
+	text-transform: uppercase;
+	padding: 12px 12px 12px 12px;
+	border: 0;
+	border-radius: 10px;
+	outline: none;
+	text-decoration: none;
+}
+
+.vk_button:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: #fffc00;
+}
+
+.telegram_button {
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-family: 'PT-Sans', sans-serif;
+	font-size: 24px;
+	background: #1e96c8;
+	text-transform: uppercase;
+	padding: 12px 12px 12px 12px;
+	border: 0;
+	border-radius: 10px;
+	outline: none;
+	text-decoration: none;
+}
+
+.telegram_button:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: #fffc00;
+}
+
+.yellow_text_block {
+	margin-bottom: 10px;
+}
+
+.buttons_block	{
+	margin-bottom: 15px;
+}
+
+.list_services a {
+	color: #fff;
+}
+
+.list_services {
+	line-height: 35px;
+}
+
+.list_services_2 a {
+	color: #fff;
+}
+
+.list_services_2 {
+	line-height: 35px;
+}
