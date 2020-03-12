@@ -328,3 +328,158 @@ hr {
 .list_services_2 {
 	line-height: 35px;
 }
+
+/* ------------------------------------Responsive-------------- */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+		flex-direction: column;
+	}
+	.row {
+		width: 100%;
+	}
+	.order .container {
+		background: none;
+	}
+
+	.order .row {
+		justify-content: center;
+	}
+
+	.order .features__title {
+		width: 100%;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 100%;
+	}
+	.features__block__icon {
+		padding-left: 295px
+	}
+	.logo {
+		padding-left: 40%;
+	}
+	.menu {
+		padding-left: 8%;
+	}
+	.main {
+		padding-left: 23%;
+	}
+	.tree {
+		padding-left: 30%;
+	}
+	.form {
+		padding-left: 15%;
+	}
+	.telegram_button {
+		margin-top: 20px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	.main {
+		padding-left: 10%;
+	}
+	.logo {
+		padding-left: 35%;
+	}
+	.tree {
+		padding-left: 24%;
+	}
+	.features__block__icon {
+		padding-left: 40%;
+	}
+	.why__block__icon	{
+		height: 50%;
+	}
+	.form {
+		width: auto;
+	}
+	.form__input{
+		width: auto;
+		margin-left: 20%;
+	}
+	.features__title {
+		padding-left: 10%;
+	}
+	.form__btn {
+		margin-left: 25%;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+	}
+	.logo {
+		padding-left: 40%;
+		height: 50%;
+	}
+	.menu {
+		flex-direction: column;
+   		padding-left: 40%;
+	}
+	.main {
+		padding-left: 5%;
+		text-align: center;
+	}
+	.main__title	{
+		padding-left: 20%;
+	}
+	.tree {
+		height: 50%;
+    	width: auto;
+    	padding-left: 30%;
+	}
+	.main__text {
+		width: auto;
+		padding-left: 20%;
+	}
+	.main__btn .btn {
+		margin-left: 10%;
+	}
+	.why__block__content {
+		width: auto;
+    	text-align: center;
+	}
+	.block__why__two {
+		padding-right: 0%;
+	}
+	.block__why__one {
+		padding-left: 0%;
+	}
+	.block__why__three {
+		padding-left: 0%;
+		text-align: right;
+	}
+	.block__why__four {
+		padding-right: 0%;
+		text-align: left;
+	}
+	.form {
+		padding-left: 2%;
+	}
+	.features__title {
+		padding-left: 20%;
+	}
+	.contacts__logo .logo {
+		padding-left: 25%;
+	}
+	.vk_button {
+		margin-top: 15px;
+	}
+	.why__block__icon {
+		height: 35%;
+    	width: 35%;
+	}
+}
